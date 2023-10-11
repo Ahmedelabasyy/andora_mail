@@ -11,7 +11,7 @@ export default function User() {
   console.log(showPass);
   const getUserData = async () => {
     const res = await axios.get(
-      `https://2bb76d45-8288-43d7-bb6d-7b8740651850.mock.pstmn.io/user?id=${id}`
+      `https://2bb76d45-8288-43d7-bb6d-7b8740651850.mock.pstmn.io/user`
     );
     const data = res.data;
     setUserData(data);
