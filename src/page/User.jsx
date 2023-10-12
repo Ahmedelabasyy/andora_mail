@@ -27,8 +27,11 @@ export default function User() {
   };
 
   return (
-    <section className="w-full h-screen bg-[#185860]">
-      <div className="w-full h-full flex justify-center items-center ">
+    <section
+      className="w-full h-screen flex justify-center items-center"
+      style={{ backgroundImage: "url('/bg.svg')" }}
+    >
+      <div className=" w-[50%] rounded-3xl py-[8rem] bg-[#185860] flex justify-center items-center ">
         <div className="w-[411px] flex flex-col items-center gap-10">
           <div className="text-center ali">
             <svg
